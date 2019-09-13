@@ -1,6 +1,6 @@
 stackbitVersion: ~0.2.0
 ssgName: custom    # allowed values: unibit, jekyll, hugo, gatsby, custom
-buildCommand: nsm build-updated  # build command that builds static site
+buildCommand: ls  # build command that builds static site
 publishDir: site   # folder with the generated static site files
 staticDir: site  # folder with files that are copied to publishDir as is
 uploadDir: site/images  # folder with media files, relative to staticDir
